@@ -1,0 +1,23 @@
+{
+  "name": "devmitulpatel/encrypter",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Mitul Pstel",
+      "email": "mitul.a.patel19@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.2.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "M\\": "src/"
+    },
+      "files": [
+        "src/Functions/7_3.php"
+      ]
+    },
+    "description": "For Million Solutions LLP Private Code"
+}
