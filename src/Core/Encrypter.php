@@ -19,7 +19,7 @@ class Encrypter
 
         $array=[];
 
-        for ($x=0;$x<100;$x++){
+        for ($x=0;$x<10000;$x++){
             $array[$x]=[];
             foreach ($d as $k){
                $rByte=random_bytes(1);
@@ -73,7 +73,7 @@ class Encrypter
 
         ];
 
-        dd(implode('',$final));
+        $rstr=implode('',$final);
 
 
        // var_dump(base64_encode($str));
