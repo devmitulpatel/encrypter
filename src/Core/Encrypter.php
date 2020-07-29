@@ -67,13 +67,13 @@ class Encrypter
 
 
         $final=[
-          reset($randdomKeyEx),
-            $strSecret,
-          end($randdomKeyEx)
+            array_search(reset($randdomKeyEx),$data[0])  ,
+            implode('',$strSecret),
+            array_search( end($randdomKeyEx),$data[0])
 
         ];
 
-        dd($final);
+        dd(implode('',$final));
 
 
        // var_dump(base64_encode($str));
